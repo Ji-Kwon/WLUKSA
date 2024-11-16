@@ -1,0 +1,65 @@
+.navbar{
+    font-family: 'Lexend', sans-serif;
+    background-color: rgb(8, 8, 38);
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo{
+    display: block;
+    width: 60px;
+    margin-right: auto;
+}
+
+.instagram{
+    display: block;
+    width: 30px;
+    margin-right: 10px; 
+}
+
+.navdiv ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto; /* Center menu items */
+}
+
+.navdiv ul li{
+    display: inline;
+}
+.navdiv ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+}
+body{
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    text-align: center;
+    padding: 0.4rem;
+    color: white;
+    background-color: rgb(8, 8, 38);
+    font-family: 'Lexend', sans-serif;
+    position: relative;
+    width: 100%;
+    bottom: 0%;
+    font-size: 8px;
+}
