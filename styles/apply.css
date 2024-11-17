@@ -7,6 +7,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
+    height: 60px;
 }
 
 .navdiv{
@@ -48,9 +50,70 @@
 body{
     font-family: 'Lexend', sans-serif;
     margin: 0;
-    padding: 0;
+    padding-top: 60px;
     box-sizing: border-box;
+    background-image: linear-gradient(110deg, rgba(50, 38, 102, 0.8), rgba(62, 48, 127,0.7)), url(/assets/laurier.jpg);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
+
+body, html {
+    overflow-x: hidden;
+}
+
+.formdiv h1{
+    text-align: center;
+    
+}
+
+form {
+    background-color: rgb(8, 8, 38,0.6);
+    width: 80vw;
+    max-width: 600px;
+    min-width: 400px;
+    margin: auto;
+    padding: 2rem 1rem 2rem 1rem;
+
+  }
+
+fieldset{
+    border: none;
+}
+
+.role-question{
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+textarea{
+    resize: none;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+
+textarea, select{
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+  
+  }
+
 
 footer{
     text-align: center;
@@ -60,6 +123,7 @@ footer{
     font-family: 'Lexend', sans-serif;
     position: relative;
     width: 100%;
+    height: 30px;
     bottom: 0%;
     font-size: 8px;
 }

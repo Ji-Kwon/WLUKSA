@@ -12,18 +12,46 @@
 <body>
     <nav class="navbar">
         <div class="navdiv">
-            <div class="logodiv"><a href="#"><img src="/assets/logo.png" class="logo"></a></div>
+            <div class="logodiv"><a href="index.html"><img src="/assets/logo.png" class="logo"></a></div>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="apply.html">Apply</a></li>
+                <li><a href="#">Apply</a></li>
             </ul>
             <div class="instagramdiv"><a href="https://www.instagram.com/ksa.laurier/"><img src="/assets/instagram.png" class="instagram"></a></div>
         </div>
     </nav>
+    <div class="application">
+        <form method="POST" action="https://formsubmit.co/ksa.laurier@gmail.com">
+            <div class="formdiv">
+                <H1>Application Form</H1>
+                <fieldset>
+                    <label for="name-label" id="name-label">Name <input id="name" name="name" type="text" placeholder="Enter your name" required></label>
+                    <label for="email-label" id="email-label">Email <input id="email" name="email" placeholder="Please use Laurier email" required></label>
+                    <label for="role-label" id="role-label">Position 
+                        <select id="role" name="role" onchange="updateQuestion()" required>
+                            <option value="" disabled selected>---Choose a role---</option>
+                            <option value="internal">VP of Internal</option>
+                            <option value="corporate">VP of Corporate Relations</option>
+                            <option value="marketing">VP of Marketing</option>
+                            <option value="events">VP of Events</option>
+                        </select>
+                    </label>
+                    <label for="resume-label" id="resume-label">Resume <input type="file" id="resume" name="resume" required></label>
+                </fieldset>
+                <div class="role-question" id="role-question">
+                    <label for="explanation-label" id="explanation-label">Postion Related Question <textarea id="explanation" name="explanation" rows="5" placeholder="Write your response here..." required></textarea></label>
+                </div>
+                <div class="submit">
+                    <input type="submit">
+                </div>
+            </div>
+        </form>
+    </div>
     <footer>
         <h3>&copy; 2024 Wilfrid Laurier University Korean Students' Association</h3>
     </footer>
+    <script src="/script/apply.js"></script>
 </body>
 
 </html>
