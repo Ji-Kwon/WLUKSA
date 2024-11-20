@@ -1,3 +1,108 @@
+@media (orientation: landscape) {
+.logo{
+    display: block;
+    width: 60px;
+    margin-right: auto;
+}
+
+.instagram{
+    display: block;
+    width: 30px;
+    margin-right: 10px; 
+}
+
+.navdiv ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.statement-div{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    margin: 0 auto;
+}
+.statement-image{
+    width: 100px;
+    height: auto;
+    border-radius: 0px;
+}
+
+.statement{
+    color: black;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.team-image{
+    display: block;
+    width: 50%;
+    height: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+}
+@media (orientation: portrait) {    
+    .logo{
+        display: block;
+        width: 40px;
+        margin-right: auto;
+    }
+    
+    .instagram{
+        display: block;
+        width: 20px;
+        margin-right: 10px; 
+    }
+    
+
+    .navdiv ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        font-size: 12px;
+    }
+   
+    
+    .statement-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+    }
+    .statement-image{
+        width: 100px;
+        height: auto;
+        border-radius: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .statement{
+        color: black;
+        font-family: 'Lexend', sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    .team-image{
+        display: block;
+        width: 50%;
+        height: 30vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
 .navbar{
     font-family: 'Lexend', sans-serif;
     background-color: rgb(8, 8, 38);
@@ -19,18 +124,6 @@
     max-width: 1200px;
 }
 
-.logo{
-    display: block;
-    width: 60px;
-    margin-right: auto;
-}
-
-.instagram{
-    display: block;
-    width: 30px;
-    margin-right: 10px; 
-}
-
 .navdiv ul {
     display: flex;
     list-style: none;
@@ -41,12 +134,7 @@
 .navdiv ul li{
     display: inline;
 }
-.navdiv ul li a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    font-size: 16px;
-}
+
 body{
     font-family: 'Lexend', sans-serif;
     margin: 0;
@@ -92,44 +180,11 @@ body, html {
     top: 40%; /* Position of the second header, adjust as needed */
 }
 
-.statement-div{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    gap: 20px;
-    margin: 0 auto;
-}
-.statement-image{
-    width: 100px;
-    height: auto;
-    border-radius: 0px;
-}
-
-.statement{
-    color: black;
-    font-family: 'Lexend', sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
-}
-
 .hiring{
     text-align: center;
     font-size: 25px;
     margin-bottom: 10px;
 
-}
-
-.team-div a{
-    text-decoration: none;
-}
-
-.team-image{
-    display: block;
-    width: 50%;
-    height: 30vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
 }
 
 .hiringbtn{
@@ -162,7 +217,10 @@ img{
     height: auto;
 }
 
- 
+.team-div a{
+    text-decoration: none;
+}
+
 footer{
     text-align: center;
     padding: 0.4rem;

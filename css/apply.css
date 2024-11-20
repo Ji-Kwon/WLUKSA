@@ -1,3 +1,46 @@
+@media (orientation: landscape) {
+    .logo{
+        display: block;
+        width: 60px;
+        margin-right: auto;
+    }
+    
+    .instagram{
+        display: block;
+        width: 30px;
+        margin-right: 10px; 
+    }
+    
+    .navdiv ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+}
+@media (orientation: portrait) {    
+    .logo{
+        display: block;
+        width: 40px;
+        margin-right: auto;
+    }
+    
+    .instagram{
+        display: block;
+        width: 20px;
+        margin-right: 10px; 
+    }
+    
+
+    .navdiv ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        font-size: 12px;
+    }
+
+}
 .navbar{
     font-family: 'Lexend', sans-serif;
     background-color: rgb(8, 8, 38);
@@ -19,17 +62,6 @@
     max-width: 1200px;
 }
 
-.logo{
-    display: block;
-    width: 60px;
-    margin-right: auto;
-}
-
-.instagram{
-    display: block;
-    width: 30px;
-    margin-right: 10px; 
-}
 
 .navdiv ul {
     display: flex;
@@ -41,11 +73,10 @@
 .navdiv ul li{
     display: inline;
 }
-.navdiv ul li a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    font-size: 16px;
+
+.formdiv h1{
+    text-align: center;
+    
 }
 body{
     font-family: 'Lexend', sans-serif;
@@ -64,22 +95,15 @@ body, html {
     overflow-x: hidden;
 }
 
-.formdiv h1{
-    text-align: center;
-    
-}
-
 form {
     background-color: rgb(8, 8, 38,0.6);
     width: 80vw;
-    max-width: 600px;
-    min-width: 400px;
     margin: auto;
     padding: 2rem 1rem 2rem 1rem;
 
   }
 
-fieldset{
+  fieldset{
     border: none;
 }
 
@@ -94,6 +118,7 @@ textarea{
     resize: none;
 }
 
+    
 input,
 textarea,
 select {
@@ -113,7 +138,6 @@ label {
     margin: 0.5rem 0;
   
   }
-
 
 footer{
     text-align: center;
