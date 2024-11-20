@@ -27,7 +27,10 @@
                 <H1>Application Form</H1>
                 <fieldset>
                     <label for="name-label" id="name-label">Full Name <input id="name" name="name" type="text" placeholder="Enter your name" required></label>
-                    <label for="email-label" id="email-label">Email <input id="email" name="email" placeholder="Please use Laurier email" required></label>
+                    <label for="email-label" id="email-label">Email <input id="email" name="email" placeholder="Please use Laurier email" required pattern="[a-zA-Z0-9._%+-]+@mylaurier\.ca"
+                        oninvalid="this.setCustomValidity('Please enter a valid myLaurier email')" 
+                        oninput="this.setCustomValidity('')">
+                    </label>
                     <label for="role-label" id="role-label">Position 
                         <select id="role" name="role" onchange="updateQuestion()" required>
                             <option value="" disabled selected>---Choose a role---</option>
