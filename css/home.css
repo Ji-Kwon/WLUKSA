@@ -53,12 +53,14 @@
         display: block;
         width: 40px;
         margin-right: auto;
+        padding-left: 20px;
     }
     
     .instagram{
         display: block;
         width: 20px;
-        margin-right: 10px; 
+        margin-right: auto; 
+        padding-right: 40px;
     }
     
 
@@ -67,6 +69,8 @@
         color: #f6f1e3;
         padding: 20px;
         font-size: 12px;
+    }
+    .navdiv a{
     }
    
     
