@@ -13,38 +13,36 @@
 
 .navdiv ul li a{
     text-decoration: none;
-    color: white;
+    color: #F6F1E3;
     padding: 20px;
     font-size: 16px;
 }
 
 .statement-div{
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 20px;
     gap: 20px;
+    max-width: 80%;
     margin: 0 auto;
 }
 .statement-image{
-    width: 100px;
-    height: auto;
-    border-radius: 0px;
+    object-fit: contain;
+    flex: 0 0 auto;
+    width: auto;
+    height: 100%;
+    max-height: 300px;
 }
 
 .statement{
-    color: black;
+    color: #1E3F7F;
     font-family: 'Lexend', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
-}
-
-.team-image{
-    display: block;
-    width: 50%;
-    height: 30vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    flex-grow: 1;
+    text-align: left;
 }
 
 }
@@ -64,7 +62,7 @@
 
     .navdiv ul li a{
         text-decoration: none;
-        color: white;
+        color: #f6f1e3;
         padding: 20px;
         font-size: 12px;
     }
@@ -73,39 +71,31 @@
     .statement-div{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
         padding: 20px;
         margin: auto;
         text-align: center;
     }
     .statement-image{
-        width: 100px;
+        object-fit: cover;
+        flex-shrink: 0;
         height: auto;
-        border-radius: 0px;
-        margin-bottom: 10px;
+        width: auto;
     }
     
     .statement{
-        color: black;
+        color: #1E3F7F;
         font-family: 'Lexend', sans-serif;
         font-size: 1rem;
         line-height: 1.5;
-    }
-    
-    .team-image{
-        display: block;
-        width: 50%;
-        height: 30vw;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
+        flex-grow: 1;
     }
 
 }
 
 .navbar{
     font-family: 'Lexend', sans-serif;
-    background-color: rgb(8, 8, 38);
+    background-color: #1E3F7F;
     position: fixed;
     top: 0;
     z-index: 1030;
@@ -140,6 +130,7 @@ body{
     margin: 0;
     padding-top: 60px;
     box-sizing: border-box;
+    background-color: #F6F1E3;
 }
 
 body, html {
@@ -149,83 +140,33 @@ body, html {
 .cover{
     position: relative;
     width: 100%;
+    height: 50%;
     text-align: left;
+    background-color: #1C5FB8;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cover img{
-    width: 100%;
-    height: 40vw;
-    
-}
-.image-overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(8, 8, 38, 0.5); /* Adjust color and opacity */
-}
-.cover-text{
-    position: absolute;
-    color: white;
-    font-size: 6vw; /* Adjust as needed */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Optional for readability */
-    margin: 1rem;
-}
-.cover-text:first-of-type {
-    top: 20%; /* Position of the first header */
-}
-
-.cover-text:last-of-type {
-    top: 40%; /* Position of the second header, adjust as needed */
-}
-
-.hiring{
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 10px;
-
-}
-
-.hiringbtn{
-    background-color: rgb(8,8,38);
-    color: white;
-    font-family: "Lexend", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    width: 100%;
-    height: 60px;
-    padding: 15px 30px;
-    text-align: center;
+    display: block;
+    width: 30vw;
     margin-left: auto;
     margin-right: auto;
-    max-width: fit-content;
-    display: block;
-    margin-bottom: 50px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    cursor: pointer;
+    padding: 2rem;
 }
 
-.hiringbtn:hover{
-    background-color: rgb(15, 100, 205);
-    color: white;
-
-}
 
 img{
     max-width: 100%;
     height: auto;
 }
 
-.team-div a{
-    text-decoration: none;
-}
 
 footer{
     text-align: center;
     padding: 0.4rem;
-    color: white;
-    background-color: rgb(8, 8, 38);
+    color: #F6F1E3;
+    background-color: #1E3F7F;
     font-family: 'Lexend', sans-serif;
     position: relative;
     width: 100%;
