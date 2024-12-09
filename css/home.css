@@ -70,9 +70,6 @@
         padding: 20px;
         font-size: 12px;
     }
-    .navdiv a{
-    }
-   
     
     .statement-div{
         display: flex;
@@ -146,19 +143,13 @@ body, html {
 .cover{
     position: relative;
     width: 100%;
-    height: 50%;
-    text-align: left;
-    background-color: #1C5FB8;
     margin-left: auto;
     margin-right: auto;
 }
 
 .cover img{
     display: block;
-    width: 30vw;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem;
+    width: 100%;
 }
 
 
