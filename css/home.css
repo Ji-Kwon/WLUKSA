@@ -140,16 +140,10 @@ body, html {
     overflow-x: hidden;
 }
 
-.cover{
-    position: relative;
-
-}
-
 .cover img{
     display: block;
     width: 100%;
 }
-
 
 img{
     max-width: 100%;
