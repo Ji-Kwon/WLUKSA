@@ -1,27 +1,4 @@
 @media (orientation: landscape) {
-    .logo{
-        display: block;
-        width: 8vw;
-        max-height: 30px;
-        margin-right: auto;
-        padding-left: 4vw;
-    }
-
-    .instagram{
-        display: block;
-        width: 8vw;
-        max-height: 30px;
-        margin-left: auto; 
-        padding-right: 4vw;
-    }
-
-    .navbar-div ul li a{
-        text-decoration: none;
-        color: #F6F1E3;
-        font-size: 2vw;
-        text-align: center;
-    }
-
     .statement-div{
         display: flex;
         flex-direction: row;
@@ -65,29 +42,7 @@
     }
 
 }
-@media (orientation: portrait) {    
-    .logo{
-        display: block;
-        max-height: 30px;
-        width: 8vw;
-        margin-right: auto;
-        padding-left: 4vw;
-    }
-    
-    .instagram{
-        display: block;
-        max-height: 30px;
-        width: 8vw;
-        margin-right: auto; 
-        padding-right: 4vw;
-    }
-    
-
-    .navbar-div ul li a{
-        text-decoration: none;
-        color: #f6f1e3;
-        font-size: 2vw;
-    }
+@media (orientation: portrait) {  
     
     .statement-div{
         display: flex;
@@ -140,42 +95,59 @@
 }
 
 .navbar{
-    font-family: 'Lexend', sans-serif;
     background-color: #1E3F7F80;
     position: fixed;
     top: 0;
     z-index: 1030;
-    width: 100%;
+    width: 100vw;
     display: flex;
-    justify-content: center;
-    overflow-x: hidden;
     height: 8vw;
     max-height: 60px;
 }
 
 .navbar-div{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    width: 100vw;
     max-width: 1200px;
 }
 
-.navbar-div ul {
+.nav-list-div {
     display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0 auto; /* Center menu items */
+    justify-content: flex-end;
+    padding-right: 6vw;
 }
 
-.navbar-div ul li{
-    display: inline;
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 }
 
+.link{
+    text-decoration: none;
+    color: #f6f1e3;
+    font-size: 3vw;
+    letter-spacing: .3vw;
+    margin: 0 2vw;
+    font-family: koreanFont;
+    font-weight: bold;
+}
 
+.logo-div{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 6vw;
+}
+
+.logo{
+    display: block;
+    max-height: 30px;
+    width: 8vw;
+}
 
 body{
-    font-family: 'Lexend', sans-serif;
     margin: 0;
     box-sizing: border-box;
     background-color: #f6f1e3;
@@ -196,11 +168,7 @@ h1{
 
 .cover-div img{
     display: block;
-    width: 100%;
-}
-
-img{
-    max-width: 100%;
+    width: 100vw;
     height: auto;
 }
 
@@ -245,6 +213,7 @@ h2{
     font-family: costaRica, sans-serif;
     font-size: 4vw;
 }
+
 
 
 .slogan-image-div{
@@ -309,7 +278,7 @@ h2{
     font-family: costaRica, sans-serif;
 }
 
-.pres-intro-div{
+.pres-div{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -348,6 +317,47 @@ h2{
     font-size: 2vw;
 }
 
+h4{
+    text-align: center;
+    color: #2C3A5B;
+    font-family: costaRica, sans-serif;
+    font-size: 2vw;
+}
+
+
+.media-div{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 0 auto 4vw auto;
+    
+}
+
+.media-icon-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.media{
+    width: 10vw;
+    padding: 0 2vw;
+}
+
+.media-name-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-name-div h4{
+    text-align: center;
+    width: 10vw;
+    padding: 0 2vw;
+}
+
+
 
 .element{
     position: absolute;
@@ -370,9 +380,9 @@ footer{
     padding: 0.4rem;
     color: #F6F1E3;
     background-color: #1E3F7F;
-    font-family: 'Lexend', sans-serif;
+    font-family: koreanFont, sans-serif;
     position: relative;
     width: 100%;
     bottom: 0%;
-    font-size: 8px;
+    font-size: 3vw;
 }

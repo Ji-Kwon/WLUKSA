@@ -1,0 +1,398 @@
+@media (orientation: landscape) {
+    .statement-container-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 70vw;
+        margin: 0 auto;
+        padding: 4vw 0;
+    }
+
+    .statement-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .statement{
+        display: flex;
+        color: #2C3A5B;
+        font-family: koreanFont, sans-serif;
+        font-weight: bold;
+        font-size: 1.5vw;
+        line-height: 1.5;
+        text-align: left;
+        width: 40vw;
+        margin: auto 2vw;
+    }
+
+    .statement-image{
+        width: 30vw;
+        height: auto;
+        margin: auto 2vw;
+    }
+
+}
+@media (orientation: portrait) {  
+    
+    .statement-container-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70vw;
+        margin: 0 auto;
+        padding: 4vw 0;
+    }
+
+    .statement-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        order: 2;
+    }
+
+    .statement{
+        display: flex;
+        color: #2C3A5B;
+        font-family: koreanFont, sans-serif;
+        font-weight: bold;
+        font-size: 1.5vw;
+        line-height: 1.5;
+        text-align: left;
+        width: 40vw;
+        margin: auto 2vw;
+    }
+
+    .statement-image{
+        width: 40vw;
+        height: auto;
+        margin: auto 2vw;
+        order: 1;
+    }
+
+}
+
+@font-face {
+    font-family: costaRica;
+    src: url(/assets/fonts/CostaRica.otf);
+  }
+@font-face {
+    font-family: koreanFont;
+    src: url(/assets/fonts/nanum-gyurieuiirgi.ttf);
+}
+
+.navbar{
+    background-color: #1E3F7F80;
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+    width: 100vw;
+    display: flex;
+    height: 8vw;
+    max-height: 60px;
+}
+
+.navbar-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    max-width: 1200px;
+}
+
+.nav-list-div {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 6vw;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    color: #f6f1e3;
+    font-size: 3vw;
+    letter-spacing: .3vw;
+    margin: 0 2vw;
+    font-family: koreanFont;
+    font-weight: bold;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 6vw;
+}
+
+.logo{
+    display: block;
+    max-height: 30px;
+    width: 8vw;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f6f1e3;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+    color: #2C3A5B;
+    font-size: 6vw;
+    margin: 0;
+    padding: 6vw 0 0 0;
+    font-family: koreanFont, sans-serif;
+}
+
+.cover-div img{
+    display: block;
+    width: 100vw;
+}
+
+.slogan-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 4vw;
+}
+
+h2{
+    text-align: center;
+    color: #2C3A5B;
+    font-family: costaRica, sans-serif;
+    font-size: 4vw;
+}
+
+.mission-vision-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 0 4vw 0;
+}
+
+.mission-vision{
+    display: flex;
+    flex-direction: row;
+    padding: 0 2vw;
+}
+
+.mission-vision-image-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.mission, .vision{
+    width: 35vw;
+    padding: 0 2vw;
+}
+
+.slogan-image-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan-image{
+    width: 30vw;
+    padding: 0;
+    margin: auto;
+}
+
+.pres-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 4vw;
+}
+
+.pres-pic-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pres-pic{
+    width: 21vw;
+    padding: 0 1vw;
+}
+
+.pres-name-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pres-name{
+    width: 21vw;
+    padding: 0 1vw;
+}
+
+ h3{
+    text-align: center;
+    color: #2C3A5B;
+    font-family: costaRica, sans-serif;
+    font-size: 3vw;
+}
+
+h4{
+    text-align: center;
+    color: #2C3A5B;
+    font-family: costaRica, sans-serif;
+    font-size: 2vw;
+}
+
+.vp-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 4vw;
+}
+
+.vp-heading-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.branch-heading-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.finance{
+    position: relative;
+    right: 7.5vw;
+}
+
+.marketing{
+    position: relative;
+    left: 23.5vw;
+}
+
+.vp-pic-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.vp-pic{
+    width: 18vw;
+    padding: 0 1vw;
+}
+
+.finance-pic-div{
+    position: relative;
+    right: 4vw;
+}
+
+.marketing-pic-div{
+    position: relative;
+    left: 4vw;
+}
+
+.vp-name-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.vp-name{
+    width: 18vw;
+    padding: 0 1vw;
+}
+
+.finance-name-div{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 4vw;
+}
+
+.marketing-name-div{
+    position: relative;
+    left: 4vw;
+}
+
+.media-div{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 0 auto 4vw auto;
+    
+}
+
+.media-icon-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.media{
+    width: 10vw;
+    padding: 0 2vw;
+}
+
+.media-name-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-name-div h4{
+    text-align: center;
+    width: 10vw;
+    padding: 0 2vw;
+}
+
+.element{
+    position: absolute;
+    height: auto;
+    object-fit: contain;
+    z-index: 1020;
+}
+
+#smile{
+    width: 20vw;
+    top: 34vw;
+    right: 18vw;
+    margin: 0;
+    padding: 0;
+}
+
+footer h3{
+    color: #F6F1E3;
+    font-family: koreanFont, sans-serif;
+    font-size: 3vw;
+    text-align: center;
+}
+
+footer{
+    padding: 0.4rem;
+    background-color: #1E3F7F;
+    position: relative;
+    width: 100%;
+    bottom: 0%;
+}
