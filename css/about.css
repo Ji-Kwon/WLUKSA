@@ -117,7 +117,7 @@
 .link{
     text-decoration: none;
     color: #f6f1e3;
-    font-size: 3vw;
+    font-size: 2vw;
     letter-spacing: .3vw;
     margin: 0 2vw;
     font-family: koreanFont;
@@ -385,7 +385,7 @@ h4{
 footer h3{
     color: #F6F1E3;
     font-family: koreanFont, sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: center;
 }
 
