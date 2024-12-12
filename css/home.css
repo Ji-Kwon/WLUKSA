@@ -96,9 +96,9 @@
         align-items: center;
         text-align: center;
         width: 80vw;
-        height: 100vw;
+        height: 106vw;
         margin: auto;
-        padding: 4vw 0;
+        padding: 4vw 0 2vw 0;
     }
     .statement-image{
         object-fit: cover;
@@ -118,13 +118,13 @@
 
     #stars{
         width: 8vw;
-        top: 160vw;
+        top: 164vw;
         left: 20vw;
     }
 
     #swirl{
         width: 16vw;
-        top: 244vw;
+        top: 248vw;
         right: 14vw;
         margin: 0;
         padding: 0;
