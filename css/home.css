@@ -218,16 +218,17 @@ img{
     border-style: solid;
     border-color: #1D60B9;
     border-width: 2px;
-    background-color: #F6F1E3;
+    background-color: #1D60B9;
     font-size: 2vw;
     line-height: 3vw;
-    color: #1D60B9;
+    color: #F6F1E3;
     font-family: costaRica, sans-serif;
     cursor: pointer;
 }
 
 .teamButton:hover{
-    background-color: #1E3F7F60;
+    background-color: #F6F1E3;
+    color: #1D60B9;
     
 }
 
