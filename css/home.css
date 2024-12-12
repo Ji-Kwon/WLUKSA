@@ -87,7 +87,6 @@
         text-decoration: none;
         color: #f6f1e3;
         font-size: 2vw;
-        
     }
     
     .statement-div{
@@ -96,7 +95,7 @@
         align-items: center;
         text-align: center;
         width: 80vw;
-        height: 106vw;
+        height: 112vw;
         margin: auto;
         padding: 4vw 0 2vw 0;
     }
@@ -118,7 +117,7 @@
 
     #stars{
         width: 8vw;
-        top: 164vw;
+        top: 170vw;
         left: 20vw;
     }
 
