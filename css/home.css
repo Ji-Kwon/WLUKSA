@@ -27,14 +27,14 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 95vw;
-        height: 40vw;
-        margin: auto;
-        padding-bottom: 10vw;
+        width: 70vw;
+        height: 30vw;
+        margin: 0 auto;
+        padding: 0;
     }
     .statement-image{
         object-fit: cover;
-        width: 30vw;
+        width: 20vw;
         height: auto;
         margin: auto 2vw;
     }
@@ -43,7 +43,7 @@
         color: #2C3A5B;
         font-family: koreanFont, sans-serif;
         font-weight: bold;
-        font-size: 2vw;
+        font-size: 1.5vw;
         line-height: 1.5;
         text-align: left;
         width: 60vw;
@@ -51,15 +51,15 @@
     }
 
     #stars{
-        width: 16vw;
-        top: 110vw;
-        left: 6vw;
+        width: 8vw;
+        top: 80vw;
+        left: 20vw;
     }
 
     #swirl{
-        width: 26vw;
-        top: 250vw;
-        right: 0vw;
+        width: 18vw;
+        top: 164vw;
+        right: 10vw;
         margin: 0;
         padding: 0;
     }
@@ -96,13 +96,14 @@
         align-items: center;
         text-align: center;
         width: 80vw;
-        height: 150vw;
+        height: 100vw;
         margin: auto;
+        padding: 4vw 0;
     }
     .statement-image{
         object-fit: cover;
         height: auto;
-        width: 80vw;
+        width: 60vw;
         margin-left: auto;
         margin-right: auto;
     }
@@ -116,15 +117,15 @@
     }
 
     #stars{
-        width: 16vw;
-        top: 206vw;
-        left: 6vw;
+        width: 8vw;
+        top: 160vw;
+        left: 20vw;
     }
 
     #swirl{
-        width: 26vw;
-        top: 358vw;
-        right: 0vw;
+        width: 16vw;
+        top: 244vw;
+        right: 14vw;
         margin: 0;
         padding: 0;
     }
@@ -190,11 +191,11 @@ h1{
     color: #2C3A5B;
     font-size: 6vw;
     margin: 0;
-    padding: 6vw 0;
+    padding: 6vw 0 0 0;
     font-family: koreanFont, sans-serif;
 }
 
-.cove-div img{
+.cover-div img{
     display: block;
     width: 100%;
 }
@@ -208,18 +209,18 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 10vw;
+    padding-bottom: 4vw;
 }
 
 .teamButton{
-    width: 40vw;
+    width: 20vw;
     border-radius: 20px;
     border-style: solid;
     border-color: #1D60B9;
-    border-width: 4px;
+    border-width: 2px;
     background-color: #F6F1E3;
-    font-size: 4vw;
-    line-height: 8vw;
+    font-size: 2vw;
+    line-height: 3vw;
     color: #1D60B9;
     font-family: costaRica, sans-serif;
     cursor: pointer;
@@ -242,12 +243,12 @@ h2{
     text-align: center;
     color: #2C3A5B;
     font-family: costaRica, sans-serif;
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 
 .symbol{
-    width: 55vw;
+    width: 30vw;
     padding: 0;
     margin: 0;
 }
@@ -257,7 +258,7 @@ h2{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 10vw;
+    padding-bottom: 4vw;
 }
 
 .activity-image-div{
@@ -268,8 +269,8 @@ h2{
 }
 
 .activity-image{
-    width: 21vw;
-    padding: 0 2vw;
+    width: 15.5vw;
+    padding: 0 1vw;
     align-items: center;
 }
 
@@ -282,20 +283,20 @@ h2{
 }
 
 .activity-title{
-    width: 21vw;
-    padding: 0 2vw;
+    width: 15.5vw;
+    padding: 0 1vw;
     align-items: center;
 }
 
 .coming-soon{
-    width: 40vw;
+    width: 20vw;
     border-radius: 20px;
     border-style: solid;
     border-color: #1D60B9;
     border-width: 4px;
     background-color: #1D60B9;
-    font-size: 4vw;
-    line-height: 6vw;
+    font-size: 2vw;
+    line-height: 3vw;
     color: #F6F1E3;
     text-align: center;
     font-family: costaRica, sans-serif;
@@ -306,18 +307,20 @@ h2{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 10vw;
+    padding-bottom: 4vw;
 }
 
 .pres-pic-div{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .pres-pic{
-    width: 27vw;
-    padding: 0 2vw;
+    width: 21vw;
+    padding: 0 1vw;
 }
 
 .pres-name-div{
@@ -327,15 +330,15 @@ h2{
 }
 
 .pres-name{
-    width: 27vw;
-    padding: 0 2vw;
+    width: 21vw;
+    padding: 0 1vw;
 }
 
 .pres-name-div, .activity-title-div h3{
     text-align: center;
     color: #2C3A5B;
     font-family: costaRica, sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 
